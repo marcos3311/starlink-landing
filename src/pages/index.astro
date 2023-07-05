@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Landing from '../components/landing.astro';
+import Technology from '../components/Technology.astro';
+import Install from '../components/Install.astro';
+import Travel from '../components/Travel.astro';
+import Quotes from '../components/Quotes.astro';
+import Sustain from '../components/Sustain.astro';
+import Rocket from '../components/Rocket.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Starlink">
+	<header>
+		<Header />
+	</header>
+	
+	<main class="flex flex-col">
+		<Landing />
+
+		<Technology />
+
+		<Install />
+
+		<Travel />
+
+		<Quotes />
+
+		<Sustain />
+
+		<Rocket />
+	</main>
+
+	<footer>
+		<Footer />
+	</footer>
+</Layout>
